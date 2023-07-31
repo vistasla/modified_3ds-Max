@@ -1,0 +1,81 @@
+SFX_WUC
+Version=28
+GroupVersion=1.01
+Advanced=0
+HelpID=0
+ParentMaterial=0
+NumberOfNodes=4
+#NT=10100 0
+	PC=10
+	name=1 v=5000 MyColorFunction
+	version=1 v=2003 1.01
+	posx=1 v=2003 -210.25
+	posy=1 v=2003 -119.0
+	classname=1 v=5000 MyColorFunction_1
+	categoryname=1 v=5000 MyNodes_1
+	submenuname=1 v=5000 Math_1
+	isfunction=1 v=2001 1
+	grpPosX=1 v=2003 -576.0
+	grpPosY=1 v=2003 -194.0
+	group=-1
+	ISC=4
+		SVT=5001 3002 0 0 0 ColorA
+		SVT=5001 2003 0 0 0 Multiplier
+		SVT=5001 3002 0 0 0 ColorB
+		SVT=1001 1002 0 0 0 
+	OSC=4
+		SVT=5001 3002 0 ColorA
+		CC=1
+			C=0 0 0 2 0 1 0
+			CPC=0
+		SVT=5001 2003 0 Multiplier
+		CC=1
+			C=0 1 0 2 1 2 0
+			CPC=0
+		SVT=5001 3002 0 ColorB
+		CC=1
+			C=0 2 0 3 0 1 0
+			CPC=0
+		SVT=1001 1002 0 
+		CC=0
+#NT=10101 0
+	PC=2
+	posx=1 v=2003 123.0
+	posy=1 v=2003 -194.0
+	group=0
+	ISC=2
+		SVT=5001 3002 0 0 0 _DiffuseColor
+		SVT=1001 1002 0 0 0 
+	OSC=2
+		SVT=5001 3002 0 _DiffuseColor
+		CC=1
+			C=1 0 0 -1 0 0 0
+			CPC=0
+		SVT=1001 1002 0 
+		CC=0
+#NT=20016 0
+	PC=2
+	posx=1 v=2003 -376.607
+	posy=1 v=2003 -58.75
+	group=0
+	ISC=2
+		SVT=5001 3002 1 0 0 
+		SVT=5001 2003 2 0 0 
+	OSC=1
+		SVT=5001 3002 3 
+		CC=1
+			C=2 0 3 3 1 2 0
+			CPC=0
+#NT=20026 0
+	PC=2
+	posx=1 v=2003 -77.5
+	posy=1 v=2003 -330.0
+	group=0
+	ISC=2
+		SVT=5001 3002 1 0 0 
+		SVT=5001 3002 2 0 0 
+	OSC=1
+		SVT=5001 3002 3 
+		CC=1
+			C=3 0 3 1 0 0 0
+			CPC=0
